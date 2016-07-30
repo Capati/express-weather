@@ -8,7 +8,7 @@ Caso queira testar, comece clonando o repositório do projeto:
 git clone https://github.com/Capati/express-weather.git && cd express-weather
 ```
 
-Antes de testar o exemplo você precisa obter as chaves de API do Google Maps e do OpenWeather, por questão de segurança eu não compartilhei as minhas chaves. Após obter a sua, crie uma pasta chamada `config`e dentro um arquivo de configuração chamado `apiKeys` da seguinte forma:
+Antes de testar o exemplo você precisa obter as chaves de API do Google Maps e do OpenWeather, por questão de segurança eu não compartilhei as minhas chaves. Após obter a sua, crie uma pasta chamada `config`e dentro um arquivo de configuração chamado `apiKeys.js` da seguinte forma:
 
 ```js
 const appKeys = {
